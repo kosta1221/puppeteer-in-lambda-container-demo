@@ -1,0 +1,26 @@
+{
+	"name": "puppeteer-in-lambda-container-demo",
+	"version": "1.0.0",
+	"description": "A demo for my medium article about running puppeteer in a container function.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"start:time": "time node index.js"
+	},
+	"author": "Kosta Kirov",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.931.0",
+		"chrome-aws-lambda": "^10.0.0",
+		"dotenv": "^10.0.0",
+		"luxon": "^1.27.0",
+		"puppeteer-core": "^10.0.0",
+		"puppeteer-extra": "^3.1.18",
+		"puppeteer-extra-plugin-adblocker": "^2.11.11",
+		"sharp": "^0.28.3"
+	},
+	"devDependencies": {
+		"puppeteer": "^10.1.0"
+	}
+}
